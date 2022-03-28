@@ -11,4 +11,4 @@ for line in lines:
     char_count += len(line)
 
 print(f"File has {line_count} lines, {word_count} \
-    words, {char_count} characters")
+words, {char_count} characters")

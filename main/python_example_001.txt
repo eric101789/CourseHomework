@@ -1,0 +1,7 @@
+character
+lines
+words
+python
+example
+001
+text

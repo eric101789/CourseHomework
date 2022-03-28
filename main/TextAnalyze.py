@@ -7,15 +7,18 @@ line_count = len(lines)
 word_count = 0
 char_count = 0
 
+# 計算字數、行數、字元數
 for line in lines:
     words = line.split()
     word_count += len(words)
     char_count += len(line)
 
+# 計算單字出現次數
 lines = list(lines)
 string = " ".join(lines)
 word = string.split()
 
+# 列印結果
 print(f"File has {line_count} lines, {word_count} \
 words, {char_count} characters")
 print(pd.Series(word).value_counts())

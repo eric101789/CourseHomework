@@ -19,6 +19,8 @@ print(mean)
 # 增加計算標準差功能
 def decorated(func):
     def wrapper_ave(*args):
+        print("執行前新增功能：")
+        print(func(*args))
         func(*args)
         print("執行後新增功能：")
         var = sum((l - mean) ** 2 for l in rand_100) / 100

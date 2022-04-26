@@ -17,3 +17,9 @@ for i in range(0, number+1):
     print(' ' * (number-i) + '*' * (2*i-1))
 for i in range(number-1, 0, -1):
     print(' ' * (number-i) + '*' * (2*i-1))
+
+print("\n")
+
+# 第五種星星(倒三角)
+for i in range(number, 0, -1):
+    print(' ' * (number-i) + '*' * (2*i-1))
